@@ -1,0 +1,24 @@
+These are my notes summarizing a small part of the latest computer science
+research papers.
+* End to end learing in self driving cars
+[[file:1604.07316.pdf][source]]
+- CNN trained on data of front facing camera to human steering angle
+- CNN have revolutionized pattern recognition
+- CNN learn features automatically from training examples
+- CNN are an old technique
+  - The increased availablity of training data like ILSVRC
+  - fast gpus
+- two separate inputs for training and execution
+
+* An Empirical Evaluation of Deep Learning on Highway Driving
+[[file:1504.01716.pdf][source]]
+- Use Camera, Lidar, Radar and GPS data to precompute lanes and bounding boxes
+- Single gpu is used for single cnn
+- future needs to create annotations in realtime
+
+* Anatomy of a Scientific Rumour
+aoeu
+what could cause this?
+
+* Parallelized Force Directed Edge Bundling on the GPU
+[[file:zhu2012.pdf][source]]
