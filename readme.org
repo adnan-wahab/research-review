@@ -17,8 +17,54 @@ research papers.
 - future needs to create annotations in realtime
 
 * Anatomy of a Scientific Rumour
-aoeu
-what could cause this?
-
 * Parallelized Force Directed Edge Bundling on the GPU
-[[file:zhu2012.pdf][source]]
+[[file:zhu2012.pdf][
+source]]
+- A big problem with visualizing large graphs is visual clutter. 
+
+We can reduce clutter by adjusting node positions and improving edge layout
+
+- If edges are drawn using lines, we can squeeze these lines together according
+  to hierarchy. In flat graphs, we can model edges as magnetically attracted to
+  each other, to simultaneously emphasize strong connections between clusters
+  and highlight unique connections. 
+
+- the computational complexity of calculating this magnetism is O(N·M 2 ·K),
+- where m is the number of edges, and k is the number of curves in the edge 
+- these algorithms are not real time after 4000 edges
+
+the algorithm is roughly 
+  - for every edge in the graph, calculate the attraction and spring force
+    applied by each other edge
+
+  3 independent steps: calculate spring force,
+  calculate electrostatic force, and update the positions of
+  subdivision points
+
+- A compatibility check is used to filter out the edges whose attraction would
+  be too weak
+
+- 4000 edges gpu outperforms cpu by 6x
+- 15000 edges gpu outperforms cpu by 10x
+
+
+- In this visualization, edges are drawn as cubic beziers, or curved lines.
+- Thus each edge contains multiple points, a start, an end and the sub points in
+  between
+
+- these points are stored by column to maximize locality
+
+- meaning that x and y coordinates of each point is stored in two different
+  matrices
+
+- Each row corresponds to a row in the matrix, and the coordinate of the point
+  is the column
+
+In GPU-FDEB, the graph
+is represented as a matrix where all the points on each edge
+are placed in each row (see Fig. 3), and the matrix is stored
+in FORTRAN order in memory, i.e., all the 1st points of
+each edge are stored in sequence, so are the 2nd points and
+the 3rd points, etc. Furthermore, the coordinate X and Y of
+all the points are separately stored in two matrixes.
+
