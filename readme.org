@@ -16,7 +16,6 @@ research papers.
 - Single gpu is used for single cnn
 - future needs to create annotations in realtime
 
-* Anatomy of a Scientific Rumour
 * Parallelized Force Directed Edge Bundling on the GPU
 [[file:zhu2012.pdf][
 source]]
@@ -67,4 +66,24 @@ in FORTRAN order in memory, i.e., all the 1st points of
 each edge are stored in sequence, so are the 2nd points and
 the 3rd points, etc. Furthermore, the coordinate X and Y of
 all the points are separately stored in two matrixes.
+* Community Structure in Large Networks: Natural Cluster Sizes and the Absence of Large Well-Defined Clusters ∗
 
+aoeu
+aoeu
+[[file:0810.1355.pdf][source]]
+* Patterns of Temporal Variation in Online Media
+aonteuhaone
+[[file:paper-memeshapes.pdf][source]]
+* Graph Evolution: Densification and Shrinking Diameters
+[[file:powergrowth-tkdd.pdf][source]]
+* THE NBER PATENT CITATIONS DATA FILE: LESSONS, INSIGHTS AND METHODOLOGICAL TOOLS
+antoeuhantehu
+[[file:w8498.pdf][source]]
+
+* Anatomy of a Scientific Rumour
+higgs boson tweets
+[[file:srep02980.pdf][source]]
+
+* Detecting influenza epidemics using search engine query data
+[[file:detecting-influenza-epidemics.pdf][source]]
+  didnt work lol
