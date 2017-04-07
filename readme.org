@@ -87,3 +87,17 @@ higgs boson tweets
 * Detecting influenza epidemics using search engine query data
 [[file:detecting-influenza-epidemics.pdf][source]]
   didnt work lol
+
+* Patterns and dynamics of users' behavior and interaction: Network analysis of an online community
+GET PAPER
+
+
+* Predicting Positive and Negative Links in online social networks
+[[file:signs-www10.pdf][source]]
+https://snap.stanford.edu/data/wiki-Elec.html
+* Signed Networks in Social Media
+[[file:triads-chi10.pdf][source]]
+https://snap.stanford.edu/data/wiki-Elec.html
+* From Amateurs to Connoisseurs:
+Modeling the Evolution of User Expertise
+through Online Reviews
