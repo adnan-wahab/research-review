@@ -1,6 +1,21 @@
-These are my notes summarizing a small part of the latest computer science
-research papers.
-* End to end learing in self driving cars
+These are my notes summarizing a small part of the 
+latest computer science research papers.
+
+* Research Papers
+** machine learning
+*** Detecting influenza epidemics using search engine query data
+[[file:detecting-influenza-epidemics.pdf][source]]
+
+** Self Driving Cars
+*** An Empirical Evaluation of Deep Learning on Highway Driving
+[[file:1504.01716.pdf][source]]
+- Use Camera, Lidar, Radar and GPS data to precompute lanes and bounding boxes
+- Single gpu is used for single cnn
+- future needs to create annotations in realtime
+
+*** [#A] Detecting Driver Frustration from Audio and Video in the Wild
+  http://ijcai.org/Proceedings/16/Papers/195.pdf
+*** End to end learing in self driving cars
 [[file:1604.07316.pdf][source]]
 - CNN trained on data of front facing camera to human steering angle
 - CNN have revolutionized pattern recognition
@@ -10,13 +25,46 @@ research papers.
   - fast gpus
 - two separate inputs for training and execution
 
-* An Empirical Evaluation of Deep Learning on Highway Driving
-[[file:1504.01716.pdf][source]]
-- Use Camera, Lidar, Radar and GPS data to precompute lanes and bounding boxes
-- Single gpu is used for single cnn
-- future needs to create annotations in realtime
+** Economics
+*** Future of AI and jobs
+[[file:~/Desktop/Future-of-AI-Robotics-and-Jobs.pdf][source]]
 
-* Parallelized Force Directed Edge Bundling on the GPU
+** Graph theory
+*** [#A] Anatomy of a Scientific Rumour
+higgs boson tweets
+[[file:srep02980.pdf][source]]
+*** [#A] Patterns of Temporal Variation in Online Media
+aonteuhaone
+[[file:paper-memeshapes.pdf][source]]
+
+*** Community Structure in Large Networks: Natural Cluster Sizes and the Absence of Large Well-Defined Clusters ∗
+
+aoeu
+aoeu
+[[file:0810.1355.pdf][source]]
+*** Graph Evolution: Densification and Shrinking Diameters
+[[file:powergrowth-tkdd.pdf][source]]
+*** THE NBER PATENT CITATIONS DATA FILE: LESSONS, INSIGHTS AND METHODOLOGICAL TOOLS
+antoeuhantehu
+[[file:w8498.pdf][source]]
+
+
+*** Patterns and dynamics of users' behavior and interaction: Network analysis of an online community
+GET PAPER
+
+*** Predicting Positive and Negative Links in online social networks
+[[file:signs-www10.pdf][source]]
+https://snap.stanford.edu/data/wiki-Elec.html
+*** Signed Networks in Social Media
+[[file:triads-chi10.pdf][source]]
+https://snap.stanford.edu/data/wiki-Elec.html
+*** From Amateurs to Connoisseurs:
+Modeling the Evolution of User Expertise through Online Reviews
+** Visualization
+*** Reducing snapshots to points: A visual analytics approach to dynamic network exploration
+https://scholar.google.com/scholar?cites=17147299071653339932&as_sdt=5,44&sciodt=0,44&hl=en
+
+*** Parallelized Force Directed Edge Bundling on the GPU
 [[file:zhu2012.pdf][
 source]]
 - A big problem with visualizing large graphs is visual clutter. 
@@ -66,38 +114,308 @@ in FORTRAN order in memory, i.e., all the 1st points of
 each edge are stored in sequence, so are the 2nd points and
 the 3rd points, etc. Furthermore, the coordinate X and Y of
 all the points are separately stored in two matrixes.
-* Community Structure in Large Networks: Natural Cluster Sizes and the Absence of Large Well-Defined Clusters ∗
 
-aoeu
-aoeu
-[[file:0810.1355.pdf][source]]
-* Patterns of Temporal Variation in Online Media
-aonteuhaone
-[[file:paper-memeshapes.pdf][source]]
-* Graph Evolution: Densification and Shrinking Diameters
-[[file:powergrowth-tkdd.pdf][source]]
-* THE NBER PATENT CITATIONS DATA FILE: LESSONS, INSIGHTS AND METHODOLOGICAL TOOLS
-antoeuhantehu
-[[file:w8498.pdf][source]]
+* Articles
+** https://rewind2016.withyoutube.com/guide
 
-* Anatomy of a Scientific Rumour
-higgs boson tweets
-[[file:srep02980.pdf][source]]
+** http://polygraph.cool/playlistpotluck/
 
-* Detecting influenza epidemics using search engine query data
-[[file:detecting-influenza-epidemics.pdf][source]]
-  didnt work lol
+** https://googletrends.github.io/youtube-election/
 
-* Patterns and dynamics of users' behavior and interaction: Network analysis of an online community
-GET PAPER
+** http://polygraph.cool/grandmaster-flash/
+
+** http://polygraph.cool/kickstarter/
 
 
-* Predicting Positive and Negative Links in online social networks
-[[file:signs-www10.pdf][source]]
-https://snap.stanford.edu/data/wiki-Elec.html
-* Signed Networks in Social Media
-[[file:triads-chi10.pdf][source]]
-https://snap.stanford.edu/data/wiki-Elec.html
-* From Amateurs to Connoisseurs:
-Modeling the Evolution of User Expertise
-through Online Reviews
+
+<div class="section__items">
+				
+		<a href="//pudding.cool/2017/03/westbrook" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_westbrook.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">How Russell Westbrook can Average a Triple-Double</p>
+				<p class="item__stats">
+					<span class="stats__views">1,830 views</span>
+					<span class="stats__date">a month ago</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/home-court" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_home-court.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Do NBA refs favor the home team?</p>
+				<p class="item__stats">
+					<span class="stats__views">1,973 views</span>
+					<span class="stats__date">a month ago</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/02/oscars_so_mapped" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_02_oscars_so_mapped.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">The Geographic Divide of Oscars Films</p>
+				<p class="item__stats">
+					<span class="stats__views">6,202 views</span>
+					<span class="stats__date">2 months ago</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/02/new-slang" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_02_new-slang.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">The Emergence Of Slang, Using Search Data</p>
+				<p class="item__stats">
+					<span class="stats__views">13,211 views</span>
+					<span class="stats__date">2 months ago</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/01/shape-of-slavery" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_01_shape-of-slavery.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Mapping Slavery Against US Incarceration</p>
+				<p class="item__stats">
+					<span class="stats__views">6,667 views</span>
+					<span class="stats__date">3 months ago</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/01/making-it-big" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_01_making-it-big.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">The Unlikely Odds of Making It Big</p>
+				<p class="item__stats">
+					<span class="stats__views">24,552 views</span>
+					<span class="stats__date">3 months ago</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/hamilton" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_hamilton.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">An Interactive Visualization of Every Line in Hamilton</p>
+				<p class="item__stats">
+					<span class="stats__views">131,655 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/elections" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_elections.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">How News Media Covers Trump &amp; Clinton</p>
+				<p class="item__stats">
+					<span class="stats__views">10,521 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/redraft" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_redraft.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Twenty Years of the NBA Redrafted</p>
+				<p class="item__stats">
+					<span class="stats__views">75,858 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/sampling" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_sampling.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">How Robert Glasper sampled Miles Davis on “Ghetto Walkin”</p>
+				<p class="item__stats">
+					<span class="stats__views">27,104 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/miles" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_miles.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">The 2,452 Wikipedia Pages on which Miles Davis is Mentioned</p>
+				<p class="item__stats">
+					<span class="stats__views">0 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/music-history" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_music-history.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">How Music Taste Evolved</p>
+				<p class="item__stats">
+					<span class="stats__views">1,255,024 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/comeback" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_comeback.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Using Historical NBA Data To Rank the Most Unlikely Comebacks</p>
+				<p class="item__stats">
+					<span class="stats__views">11,535 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/film-dialogue" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_film-dialogue.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">The Largest Analysis of Film Dialogue by Gender, Ever</p>
+				<p class="item__stats">
+					<span class="stats__views">1,798,480 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/punk" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_punk.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Crowdsourcing the Definition of "Punk"</p>
+				<p class="item__stats">
+					<span class="stats__views">54,768 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/bechdel" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_bechdel.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Hollywood's Gender Divide and its Effect on Films</p>
+				<p class="item__stats">
+					<span class="stats__views">124,213 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/labels" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_labels.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">The Most Succesful Labels in Hip Hop</p>
+				<p class="item__stats">
+					<span class="stats__views">1,509 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/timeless" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_timeless.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Using Spotify to measure the popularity of older music</p>
+				<p class="item__stats">
+					<span class="stats__views">0 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/02/vocabulary" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_02_vocabulary.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">The Largest Vocabulary in Hip Hop</p>
+				<p class="item__stats">
+					<span class="stats__views">1,370,336 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+		<a href="//pudding.cool/2017/03/outkast" class="item">
+			<div class="item__image" style="background-image: url(&quot;homepage/assets/img/2017_03_outkast.jpg&quot;)"></div>
+			<div class="item__info">
+				<p class="item__hed">Outkast, in Charts</p>
+				<p class="item__stats">
+					<span class="stats__views">10,952 views</span>
+					<span class="stats__date">internet old</span>
+				</p>
+			</div>
+		</a>
+	
+				</div>
+
+** Abstract Rendering: Out-of-core Rendering for information visualization
+[[file:Cottam2014OutOfCore.pdf][source]]
+The data shader paper
+
+
+* Books
+
+
+* Videos
+
+
+
+* Inbox
+graphs
+berge 1976
+bollobas 1998
+diestel 2000
+barabasi 2002
+watts 2002
+
+
+network flow
+ford and fulkerson 1962
+schrivjer 2002
+goldberg tardos and tarjan 1990
+Ahuja Magnati orlin 1993
+cook 1998
+
+
+P.hall 1935
+konig 1916
+
+Menger 1927
+
+1986 Golberg 
+
+1986 Golberg and tarjan
+
+
+Greig, Porteous and eseheult 1989 
+
+leighton maggs rao 1994
+
+leighton 1992
+
+
+** moar
+https://github.com/terryum/awesome-deep-learning-papers
+https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
+http://www.tandfonline.com/doi/full/10.1080/15230406.2014.901901
+https://vega.github.io/vega/
+http://www.research.att.com/articles/featured_stories/2013_10/201310_nanocubes.html?fbid=xi1yuuhdzP0
+http://idl.cs.washington.edu/papers/surprise-maps/
+http://idl.cs.washington.edu/papers/voyager2
+http://vis.stanford.edu/projects/immens/
+http://ieeevis.org/year/2015/info/overview-amp-topics/papers
+http://sci-hub.bz/
+http://www.arxiv-sanity.com/
+http://deeplearning.net/reading-list/
+https://idl.cs.washington.edu/papers/
+https://sci-hub.ac/
+http://ieeevis.org/
+https://github.com/terryum/awesome-deep-learning-papers?utm_source=Mailing+list&utm_campaign=b94a4a50dc-Kaggle_Newsletter_03-01-2017&utm_medium=email&utm_term=0_f42f9df1e1-b94a4a50dc-401006353
+http://idl.cs.washington.edu/papers/
+http://www.graphics.cornell.edu/pubs/papers.html
+http://www.nature.com/articles/srep02980
+http://www.cise.ufl.edu/research/sparse/matrices/
